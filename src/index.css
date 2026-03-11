@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rokkitt:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Rokkitt", serif;
+  
+  --color-bbq-red: #D32F2F;
+  --color-bbq-dark: #1A1A1A;
+  --color-bbq-wood: #8D6E63;
+  --color-bbq-smoke: #F5F5F5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bbq-smoke);
+  color: var(--color-bbq-dark);
+}
